@@ -21,7 +21,7 @@ const WelcomeSection = () => {
   };
 
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center mt-8 max-sm:mt-12">
       <Particle />
       <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center'>
 

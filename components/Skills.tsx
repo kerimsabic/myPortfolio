@@ -18,7 +18,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className='pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]'>
+    <div className='pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a] overflow-y-auto' id='skills'>
 
       <h1 className='heading'>
         Courses & <span className='text-yellow-300'>Skills</span>
@@ -70,27 +70,10 @@ const Skills = () => {
 
 
 
-<div className='w-[80%] mx-auto pt-[2rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem]'>
-  <div className='flex flex-col'>
-    <button onClick={() => setShowSkillsFront(!showSkillsFrontEnd)} className='flex justify-center items-center'>
-      {/* Your button content */}
-    </button>
-    <div className={`transition-opacity duration-500 ease-in-out ${showSkillsFrontEnd ? 'opacity-100' : 'opacity-0'}`}>
-      {/* Your skills content */}
-    </div>
-  </div>
-  <div className='flex flex-col'>
-    <button onClick={() => setShowSkillsBack(!showSkillsBackend)} className='flex justify-center items-center'>
-      {/* Your button content */}
-    </button>
-    <div className={`transition-opacity duration-500 ease-in-out ${showSkillsBackend ? 'opacity-100' : 'opacity-0'}`}>
-      {/* Your skills content */}
-    </div>
-  </div>
-</div>
 
 
-      <div className='w-[80%] mx-auto pt-[2rem]  grid grid-cols-1 md:grid-cols-2 gap-[2rem] i'>
+
+      <div className='w-[80%] mx-auto pt-[2rem]  grid  md:grid-cols-2 gap-[2rem] i'>
         <div>
           <button onClick={() => setShowSkillsFront(!showSkillsFrontEnd)} className='flex justify-center items-center w-full'>
             <div className='relative mb-[3rem] flex items-center'>
@@ -101,7 +84,7 @@ const Skills = () => {
 
             </div>
           </button>
-          <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showSkillsFrontEnd ? 'opacity-100' : ''}`}>
+          <div className={` opacity-0 transition-opacity duration-500 ease-in-out ${showSkillsFrontEnd ? 'opacity-100' : 'hidden'}`}>
             <SkilsLanguage skill1="JavaScript" skill2="TypeScript" skill3="React" skill4="Html" skill5="css" level1="w-[100%]" level2="w-[100%]" level3="w-[100%]" level4="w-[100%]" level5="w-[100%]" />
           </div>
         </div>
@@ -115,7 +98,7 @@ const Skills = () => {
               </h1>
             </div>
           </button>
-          <div className={`transition-opacity duration-500 ease-in-out ${showSkillsBackend ? 'opacity-100' : 'opacity-0'}`}>
+          <div className={`transition-opacity duration-500 ease-in-out ${showSkillsBackend ? 'opacity-100' : 'hidden'}`}>
             <SkilsLanguage skill1="Java" skill2="Spring Boot" skill3="PHP" skill4="FlightPHP" level1="w-[100%]" level2="w-[100%]" level3="w-[100%]" level4="w-[100%]" />
           </div>
         </div>
@@ -131,13 +114,13 @@ const Skills = () => {
 
             </div>
           </button>
-          <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showDatabases ? 'opacity-100' : ''}`}>
+          <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showDatabases ? 'opacity-100' : 'hidden'}`}>
           <SkilsLanguage skill1="MYSQL" skill2="MongoDB" skill3='Kotlin Jatpack Compose'  level1="w-[100%]" level2="w-[100%]" level3='w-[100%]' />
           </div>
         </div>
 
         ) : (
-          <div className='mt-[-590px]'>
+          <div className=' max-md:mt-[3rem]'>
           <button onClick={() => setShowDatabases(!showDatabases)} className='flex justify-center items-center w-full'>
             <div className='relative mb-[3rem] flex items-center'>
               <h1 className='p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold flex items-center hover:bg-gray-700'>
@@ -147,7 +130,7 @@ const Skills = () => {
 
             </div>
           </button>
-          <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showDatabases ? 'opacity-100' : ''}`}>
+          <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showDatabases ? 'opacity-100' : 'hidden'}`}>
             <SkilsLanguage skill1="MYSQL" skill2="MongoDB" skill3='Kotlin Jatpack Compose'  level1="w-[100%]" level2="w-[100%]" level3='w-[100%]' />
           </div>
         </div>
@@ -167,12 +150,12 @@ const Skills = () => {
   
               </div>
             </button>
-            <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showSoftSkills ? 'opacity-100' : ''}`}>
+            <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showSoftSkills ? 'opacity-100' : 'hidden'}`}>
               <SkilsLanguage skill1="adaptive" skill2="fast learning" skill3="hard-working" skill4="dedicated" level1="w-[100%]" level2="w-[100%]" level3="w-[100%]" level4="w-[100%]" />
             </div>
           </div>
         ):(
-          <div className='mt-[-590px]'>
+          <div className=' max-md:mt-[3rem]'>
           <button onClick={() => setShowSoftSkills(!showSoftSkills)} className='flex justify-center items-center w-full'>
             <div className='relative mb-[3rem] flex items-center'>
               <h1 className='p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold flex items-center hover:bg-gray-700'>
@@ -182,7 +165,7 @@ const Skills = () => {
 
             </div>
           </button>
-          <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showSoftSkills ? 'opacity-100' : ''}`}>
+          <div className={`opacity-0 transition-opacity duration-500 ease-in-out ${showSoftSkills ? 'opacity-100' : 'hidden'}`}>
             <SkilsLanguage skill1="adaptive" skill2="fast learning" skill3="hard-working" skill4="dedicated" level1="w-[100%]" level2="w-[100%]" level3="w-[100%]" level4="w-[100%]" />
           </div>
         </div>

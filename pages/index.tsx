@@ -1,6 +1,7 @@
 import About from '@/components/About';
 import MobileNav from '@/components/MobileNav'
 import Navbar from '@/components/Navbar'
+import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
 import WelcomeSection from '@/components/WelcomeSection';
 import React, { useState } from 'react'
@@ -11,7 +12,7 @@ const HomePage = () => {
   const closeNavigation = () => setNavigation(false);
   
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden' id='home'>
       <div>
 
         {/* Navbar */}
@@ -25,6 +26,7 @@ const HomePage = () => {
           {/* About */}
           <About/>
           <Skills/>
+          <Projects/>
         </div>
         
       </div>
