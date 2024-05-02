@@ -27,7 +27,7 @@ const WelcomeSection = () => {
 
         <div>
           <h1 className='text-[35px] text-white font-bold md:text-[45px]'>
-            HI , I'M <span className='text-yellow-300'>KERIM ŠABIĆ!</span>
+            HI , I&apos;M <span className='text-yellow-300'>KERIM ŠABIĆ!</span>
           </h1>
 
           <TextAnimation />

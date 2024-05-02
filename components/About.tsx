@@ -18,11 +18,11 @@ const About = () => {
 
 
                     <div className='text-white pt-[3rem] text-[16px]'>
-                        <p> Hello! I'm Kerim Šabić, an enthusiastic and dedicated third-year student at International Burch University, actively pursuing a degree in Information Technology. <br />
-                            <br /> As a passionate programmer, I have a particular affinity for Java and a keen interest in backend development. I'm driven by the opportunity to solve complex problems and create efficient solutions.<br />
-                            <br />Currently, I'm actively involved in a team project called the Gradyng System Project, where we're utilizing FlightPHP and React to develop a cutting-edge application. This hands-on experience allows me to apply my skills in real-world scenarios and collaborate effectively within a team environment.<br />
-                            <br />Furthermore, I'm committed to continuous learning and growth. Currently, I'm diving into the realm of DevOps Engineering on the AWS Cloud, eager to expand my knowledge and expertise in this rapidly evolving field.<br />
-                            <br /> I'm passionate about contributing my skills and knowledge to dynamic projects while continuously expanding my understanding of cutting-edge technologies. Join me on this journey of exploration and innovation!<br />
+                        <p> Hello! I&apos;m Kerim Šabić, an enthusiastic and dedicated third-year student at International Burch University, actively pursuing a degree in Information Technology. <br />
+                            <br /> As a passionate programmer, I have a particular affinity for Java and a keen interest in backend development. I&apos;m driven by the opportunity to solve complex problems and create efficient solutions.<br />
+                            <br />Currently, I&apos;m actively involved in a team project called the Gradyng System Project, where we're utilizing FlightPHP and React to develop a cutting-edge application. This hands-on experience allows me to apply my skills in real-world scenarios and collaborate effectively within a team environment.<br />
+                            <br />Furthermore, I&apos;m committed to continuous learning and growth. Currently, I&apos;m diving into the realm of DevOps Engineering on the AWS Cloud, eager to expand my knowledge and expertise in this rapidly evolving field.<br />
+                            <br /> I&apos;m passionate about contributing my skills and knowledge to dynamic projects while continuously expanding my understanding of cutting-edge technologies. Join me on this journey of exploration and innovation!<br />
                         </p>
                     </div>
 
