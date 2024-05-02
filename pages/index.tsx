@@ -1,4 +1,5 @@
 import About from '@/components/About';
+import Contact from '@/components/Contact';
 import MobileNav from '@/components/MobileNav'
 import Navbar from '@/components/Navbar'
 import Projects from '@/components/Projects';
@@ -27,6 +28,7 @@ const HomePage = () => {
           <About/>
           <Skills/>
           <Projects/>
+          <Contact />
         </div>
         
       </div>

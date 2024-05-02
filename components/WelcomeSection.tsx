@@ -47,7 +47,7 @@ const WelcomeSection = () => {
         </div>
 
         <div className='w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]'>
-          <Image src="/images/u1.jpg" alt='User' layout='fill' className='object-cover rounded-full' />
+          <Image src="/images/kerim2.jpg" alt='User' layout='fill' className='object-cover rounded-full' />
         </div>
 
       </div>

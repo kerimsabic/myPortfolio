@@ -19,7 +19,7 @@ const MobileNav = ({navigation,closeNavigation}:Props) => {
             <Link to='about' spy={true} smooth={true} offset={-40} duration={700} onClick={closeNavigation}><div className='nav-link-mobile'>ABOUT</div> </Link>
             <Link to='skills' spy={true} smooth={true} offset={-40} duration={700} onClick={closeNavigation}><div className='nav-link-mobile'>SKILLS</div></Link>
             <Link to='projects' spy={true} smooth={true} offset={-40} duration={700} onClick={closeNavigation}><div className='nav-link-mobile'>PROJECTS</div></Link>
-            <Link to='projects' spy={true} smooth={true} offset={-40} duration={700} onClick={closeNavigation}><div className='nav-link-mobile'>CONTACT</div></Link>
+            <Link to='contact' spy={true} smooth={true} offset={-40} duration={700} onClick={closeNavigation}><div className='nav-link-mobile'>CONTACT</div></Link>
         </div>
         <div onClick={closeNavigation} className='absolute z-[1000000] text-yellow-300 top-[2rem] right-[2rem] w-[2rem] h-[2rem ]'>
             <XMarkIcon/>
