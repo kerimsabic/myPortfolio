@@ -9,7 +9,7 @@ const WelcomeSection = () => {
 
   const handleDownloadCv = () => {
     // Replace 'cv.pdf' with the actual path to your CV file
-    const cvUrl = '/resume/kerimCV.pdf';
+    const cvUrl = '/resume/kerimResume.pdf';
 
     // Trigger download
     const link = document.createElement('a');
