@@ -51,11 +51,6 @@ const Skills = () => {
           <SkillsItem title="Data Structires and Algorithms" description="Data Structures and Algorithms with Java" />
         </div>
       </div>
-      <div className='flex justify-center items-center w-full'>
-        <button onClick={() => setShowMoreSkills(!showMoreSkills)} className='p-2 rounded-md bg-[#55e6a5] text-black hover:bg-yellow-300 '>
-          {showMoreSkills ? 'Hide Courses' : 'Show More Courses'}
-        </button>
-      </div>
 
       {/* Display additional SkillsItem components when showMoreSkills is true */}
       {showMoreSkills && (
@@ -65,6 +60,14 @@ const Skills = () => {
           ))}
         </div>
       )}
+
+      <div className='flex justify-center items-center w-full'>
+        <button onClick={() => setShowMoreSkills(!showMoreSkills)} className='p-2 rounded-md bg-[#55e6a5] text-black hover:bg-yellow-300 '>
+          {showMoreSkills ? 'Show Less ' : 'Show More Courses'}
+        </button>
+      </div>
+
+      
 
 
 
