@@ -78,7 +78,7 @@ const Skills = () => {
           <button onClick={() => setShowSkillsFront(!showSkillsFrontEnd)} className='flex justify-center items-center w-full'>
             <div className='relative mb-[3rem] flex items-center'>
               <h1 className='p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold flex items-center hover:bg-gray-700'>
-                <span className='text-yellow-300'>Front-End&nbsp;</span>Skills
+                <span className='text-yellow-300'>Frontend&nbsp;</span>Skills
                 {showSkillsFrontEnd ? <ChevronUpIcon className='w-5 h-5 ml-2 text-white' /> : <ChevronDownIcon className='w-5 h-5 ml-2 text-white' />}
               </h1>
 
@@ -93,7 +93,7 @@ const Skills = () => {
           <button onClick={() => setShowSkillsBack(!showSkillsBackend)} className='flex justify-center items-center w-full'>
             <div className='relative mb-[3rem]'>
               <h1 className='p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold hover:bg-gray-700 flex items-center'>
-              <span className='text-yellow-300 '>Back-End&nbsp;</span>Skills
+              <span className='text-yellow-300 '>Backend&nbsp;</span>Skills
                 {showSkillsBackend ? <ChevronUpIcon className='w-5 h-5 ml-2 text-white' /> : <ChevronDownIcon className='w-5 h-5 ml-2 text-white' />}
               </h1>
             </div>

@@ -39,7 +39,7 @@ const Navbar = ({ openNavigation }: Props) => {
                 <Link to='about' spy={true} smooth={true} offset={-100} duration={700}><div className='nav-link'>ABOUT</div> </Link>
                 <Link to='skills' spy={true} smooth={true} offset={-100} duration={700}><div className='nav-link'>SKILS</div></Link>
                 <Link to='projects' spy={true} smooth={true} offset={-100} duration={700}><div className='nav-link'>PROJECTS</div></Link>
-                <Link to='contacz' spy={true} smooth={true} offset={100} duration={700}><div className='nav-link'>CONTACT</div></Link>
+                <Link to='contact' spy={true} smooth={true} offset={100} duration={700}><div className='nav-link'>CONTACT</div></Link>
 
                 
                 <div className=' space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6 max-md:hidden max-sm:hidden'>
